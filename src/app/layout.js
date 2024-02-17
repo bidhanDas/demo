@@ -1,9 +1,5 @@
 import NextTopLoader from 'nextjs-toploader'
 
-import '@/css/style.css'
-import '@/css/dropdownmenu.css'
-import '@/css/sidebar.css'
-
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-icons/font/bootstrap-icons.css'
 
