@@ -6,7 +6,7 @@ import PlainLayout from '@/components/PlainLayout'
 const page = () => {
   return (
     <div>
-      <PlainLayout></PlainLayout>
+      Hello
     </div>
   )
 }
