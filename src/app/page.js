@@ -1,10 +1,16 @@
 import React from 'react'
 import styles from './page.module.css'
 
-const page = () => {
+async function getData(){
+  const res = await fetch(`${process.env.HOST}/api/category`,{cache:'no-cache'});
+  return res.json();
+}
+
+const page = async () => {
+  const x =await getData();
   return (
     <div>
-      Hello
+      {x.data[0].name}
     </div>
   )
 }
