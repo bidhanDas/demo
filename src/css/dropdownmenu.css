@@ -1,0 +1,99 @@
+.icon-nav{
+    padding: 6px;
+    transition: 0.3s;
+    color: #606060;
+}
+.icon-nav:hover{
+    cursor: pointer;
+    transition: 0.3s;
+    color: #363B64;
+}
+.icon-nav:active{ /* click korar somoy */
+    border-radius: 50%;
+    padding: 8px;
+    transition: 0.3s;
+    color: #363B64;
+    background:  rgba(0, 0, 0, 0.16);
+}
+.icon-nav-img{
+    cursor: pointer;
+    border-radius: 50%;
+    width: 45px ;
+    height: 45px ;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+.user-dropdown {
+    position: relative;
+}
+.user-dropdown:hover .user-dropdown-content {
+    display: block;
+    transition: 0.3s;
+}
+
+
+.user-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:#252526;
+    width: 260px;
+    /* right: 0; */
+    transition: 0.3s;
+    border: 1px solid rgba(0,0,0,.075);
+    box-shadow: 0 1px 2px  rgba(0,0,0,.075);
+    z-index: 1;
+}
+@media (min-width: 1024px) { 
+    .user-dropdown-content {
+        display: none;
+        position: absolute;
+        background-color:#252526;
+        width: 260px;
+        right: 0;
+        transition: 0.3s;
+        border: 1px solid rgba(0,0,0,.075);
+        box-shadow: 0 1px 2px  rgba(0,0,0,.075);
+        z-index: 1;
+    }
+ }
+
+
+
+
+
+
+
+
+
+
+
+.side-bar-item{
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 5px 12px 12px;
+    width: 100% !important;
+}
+.side-bar-item:hover{
+    transition: 0.2s;
+    background-color: #535353;
+}
+.side-bar-item-caption{
+    font-family: 'Poppins', sans-serif ;
+    font-size: 13px;
+    margin-left: 5px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+
+
+
+
