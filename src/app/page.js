@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './page.module.css'
+import parse from "html-react-parser";
 
 async function getData(){
   const res = await fetch(`${process.env.HOST}/api/category`,{cache:'no-cache'});
@@ -11,7 +12,10 @@ const page = async () => {
   return (
     <div>
       <h1>f u</h1>
-      {x.data[0].name}
+      
+      <div>
+      {parse(x.data[0].name)}
+      </div>
     </div>
   )
 }
